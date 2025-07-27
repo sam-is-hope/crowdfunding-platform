@@ -56,4 +56,31 @@ CrowdFundIt is a full-featured, modern crowdfunding web application that allows 
 ---
 
 ## 📁 Project Structure
+├── client/ # React frontend
+│ ├── src/
+│ │ ├── components/ # Reusable components
+│ │ ├── pages/ # Route-level views
+│ │ ├── App.js # Main App file
+│ │ └── index.js # ReactDOM entry point
+│ └── .env
+│ └── .gitignore
+│
+├── server/ # Node.js + Express backend
+│ ├── controllers/ # Route controllers
+│ ├── models/ # Mongoose models
+│ ├── routes/ # Route definitions
+│ ├── middleware/ # Auth, error handling
+│ ├── config/ # DB config
+│ ├── utils/ # Helper logic (e.g., analytics)
+│ ├── server.js # App entry point
+│ └── .env
+│ └── .gitignore
+│
+├── README.md
+├── .gitignore
+└── package.json
+
+yaml
+Copy
+Edit
 
